@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ccbfae837764c14b38c8565fb2ef87f" Name="Diagram1">
+        <EntityTypeShape EntityType="uchebkaModel.admin" Width="1.5" PointX="5" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.adress_client" Width="1.5" PointX="8" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.client" Width="1.5" PointX="10.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.client_oborud" Width="1.5" PointX="2.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.contract_type" Width="1.5" PointX="8" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.dolgjnost" Width="1.5" PointX="2.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.gender" Width="1.5" PointX="8" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.gorod" Width="1.5" PointX="5.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.info_admin" Width="1.5" PointX="5" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.magistral" Width="1.5" PointX="12.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.rayoun" Width="1.5" PointX="10" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.seti_dostupa" Width="1.5" PointX="15" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.seti_name" Width="1.5" PointX="12.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.status" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.strana" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.sysdiagrams" Width="1.5" PointX="12.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.type_problem" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.type_uslugi" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.type_zastroyki" Width="1.5" PointX="7.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.ulitca" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.uslugaCRM" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.uslugi" Width="1.5" PointX="12.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.vid_uslugi" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="uchebkaModel.zayavka_CRM" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="uchebkaModel.FK_admin_dolgjnost" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_adress_client_gorod" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_adress_client_strana" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_adress_client_ulitca" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_client_adress_client" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_client_contract_type" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_client_gender" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_info_admin_dolgjnost" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_rayoun_type_zastroyki" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_seti_dostupa_seti_name" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_zayavka_CRM_status" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_zayavka_CRM_type_problem" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_zayavka_CRM_type_uslugi" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_zayavka_CRM_uslugaCRM" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.FK_zayavka_CRM_vid_uslugi" ManuallyRouted="false" />
+        <AssociationConnector Association="uchebkaModel.client_uslugi" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
